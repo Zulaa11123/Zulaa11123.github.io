@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>폼 연습</title>
+    <meta name="viewport"content="width=device-width,initial-scale=1">
+    <meta charset="UTF8">
+    <link rel="stylesheet"
+    href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstra
+    p.min.css">
+    <script
+    src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min
+    .js"></script>
+    <script
+    src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.
+    min.js"></script>
+    <style>
+        .bg-1 {
+            background-color: #e8ecbe;
+        }
+        .container-fluid {
+            padding-top: 40px;
+            padding-bottom: 40px;    
+            padding-left: 50px;        
+        }
+        .bg-2 {
+            background-color: #dad590;
+        }
+        .container-fluid {
+            padding-top: 40px;
+            padding-bottom: 40px;    
+            padding-left: 50px;        
+        }
+        .bg-3 {
+            background-color: rgb(196, 186, 103);
+        }
+        .container-fluid {
+            padding-top: 40px;
+            padding-bottom: 40px;    
+            padding-left: 50px;        
+        }
+        .bg-4 {
+            background-color: rgb(163, 170, 62);
+        }
+        .container-fluid {
+            padding-top: 40px;
+            padding-bottom: 40px;    
+            padding-left: 50px;        
+        }
+        .bg-5 {
+            background-color: rgb(108, 116, 40);
+        }
+        .container-fluid {
+            padding-top: 40px;
+            padding-bottom: 40px;    
+            padding-left: 50px;        
+        }
+
+    </style>
+    
+</head>
+
+<body>
+    <div class="container-fluid bg-1">
+    <form action="submission.html">
+       <label for ="frame">First name: </label><br>
+       <input type="text" id="frame"><br>
+       <label for="Iname">Last name: </label><br>
+       <input type="text" id="Iname"><br>
+       <input type="submit"value="Submit">
+    </form>
+    </div>
+    <div class="container-fluid bg-2">
+        <form>
+            <h2>좋아하는 프로그래밍 랭귀지는?</h2>
+            <input type="radio" id="html" name="fav_language" value="html"><label for="html">HTML</label><br>
+            <input type="radio" id="css" name="fav_language" value="CSS">css<br>
+            <input type="radio" id="JavaScript" name="fav_language" value="JavaScript">JavaScript
+        </form>
+    </div>
+    <div class="container-fluid bg-3">
+        <form>
+            <h2>what do you have?</h2>
+            <input type="checkbox">Car<br>
+            <input type="checkbox">Bike<br>
+            <input type="checkbox">Boat
+        </form>
+    </div>
+    <div class="container-fluid bg-4">
+        <form>
+            <h2>Choose a car:</h2>
+            <select size="4" multiple>
+                <option>Volvo</option>
+                <option>Saab</option>
+                <option>Fiat</option>
+                <option>Audi</option>
+            </select>            
+        </form>
+    </div>
+    <div class="container-fluid bg-5">
+        <form>
+            <h2>의견을 제출해 주세요</h2>
+            <textarea rows="10" cols="30"></textarea>
+            <button type="button" onclick="alert('안녕!!!!')">Click Me!</button>
+        </form>
+    </div>
+
+
+</body>
+
+</html>
+
